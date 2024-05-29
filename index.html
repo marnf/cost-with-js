@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>money master design</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+    
+<body>
+  <header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- place navbar here -->
+
+    <div class="container text-center">
+        <div>
+            <h3>income</h3>
+        <input id="income-input-field" type="number">
+        </div>
+        <div class="p-2">
+            <h3>expenses</h3> <br>
+            <span>Food:</span><br>
+            <input id="food-input-field" type="number"><br>
+            <span>Rent:</span><br>
+            <input id="rent-input-field" type="number"><br>
+            <span>Clothes:</span><br>
+            <input id="clothes-input-field" type="number">
+            <br>
+            <button id="calculate-btn-id" class="btn btn-primary mt-3 ">calculate</button>
+
+            <h2>total expenses :<span id="total-expenses-display">00</span> </h2>
+            <h2>Balance:<span id="balance-display">00</span> </h2>
+            
+        </div>
+    </div>
+  </header>
+  <main class="text-center">
+
+    <span>save :</span> 
+    <input id="saving-parsent-input-field" type="number" name="" id="save-input-field">
+    <span>%</span>
+    <button id="save-btn" class="btn btn-primary">save</button>
+
+  </main>
+  <footer class="text-center">
+    <!-- place footer here -->
+
+    <h2>saving amount : <samp id="saving-amount-display">00</samp></h2>
+    <h2>Remaining Balance: <samp id="remaining-balance-display">00</samp></h2>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="all function.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
